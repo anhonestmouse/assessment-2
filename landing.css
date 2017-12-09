@@ -1,20 +1,57 @@
 body{
-	padding:10%;
+	margin: 0;
 	font-family:'Varela Round',sans-serif;
 	text-align: center;
-	background-color: #666;
-	color: yellow;
+	background-image: url(assets/landingPageBG.jpeg);
+	background-position: center;
+	color: white;
+}
+
+header{
+	width: 100vw;
+	height: 20vh;
+	background-color: white;
+}
+
+#toGamePage{
+	width: 100vw;
+	height: 7vh;
+	background-color: #eff0f1;
+}
+
+#button{
+	height:100%;
+	padding-top:1.3vh;
+}
+
+a{
+	font-size:3vh;
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:red;
+	background-color: #eee;
+}
+
+#container{
+	margin-top:48vh;
 }
 
 p{
+	margin-top:0.5vh;
 	padding:0 15%;
+	text-shadow: -1px 0px black, 0px -1px black, 1px 0px black, 0px 1px black;
+	background-color: rgba(30,30,30,.4);
 }
 
 #carDiv {
 	position: relative;
-	left: 36vw;
+	margin-top: 3vh;
+	left: 46vw;
 	width: 12vh;
-	height: 12vh;
+	height: 8vh;
 }
 
 #car {
@@ -26,20 +63,16 @@ p{
 	z-index: 2;
 }
 
+#car:hover {
+	
+}
+
 #letter {
 	position: relative;
 	text-align: left;
 	left: 30%;
-	top: -49%;
+	top: -75%;
 	font-size: 4vh;
 	z-index: 3;
-	color: black;
-}
-
-a{
-	padding:1vh;
-	font-size:3vh;
-	background-color: yellow;
-	text-decoration: none;
 	color: black;
 }
