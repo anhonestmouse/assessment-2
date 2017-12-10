@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family:'Varela Round',sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
 	text-align: center;
 	background-image: url(assets/landingPageBG.jpeg);
 	background-position: center;
@@ -23,7 +23,8 @@ header{
 	height:100%;
 	padding-top:1.3vh;
 }
-
+/*
+styling the link to the gamepage similar to my style guide's example*/
 a{
 	font-size:3vh;
 	text-decoration: none;
@@ -46,6 +47,7 @@ p{
 	background-color: rgba(30,30,30,.4);
 }
 
+/*everything below this holds the car*/
 #carDiv {
 	position: relative;
 	margin-top: 3vh;
@@ -68,6 +70,7 @@ p{
 }
 
 #letter {
+	font-family: 'Varela Round', sans-serif;
 	position: relative;
 	text-align: left;
 	left: 30%;

@@ -1,5 +1,5 @@
 body{
-	font-family:'Varela Round',sans-serif;
+	font-family:'PT Sans Narrow',sans-serif;
 	background-color:grey;
 
 }
@@ -29,6 +29,7 @@ button{
 	background-color: yellow;
 }
 
+/*player holds the car and everything inside.*/
 .player {
 	width: 15vh;
 	height: 10vh;
@@ -62,11 +63,13 @@ button{
 	z-index:2;
 }
 
+/*holds the letter to be typed on the car.  different more readable font for the game letters*/
 .letter {
+	font-family: 'Varela Round', sans-serif;
 	position: relative;
 	text-align: left;
 	left:32%;
-	top: -80.2%;
+	top: -83.5%;
 	font-size: 4vh;
 	z-index: 3;
 }
